@@ -1,8 +1,8 @@
 package com.codedifferently.lab.partB;
 
 public class Coin implements Comparable<Coin>{
-    private String name;
-    private double value;
+    final private String name;
+    final private double value;
 
     public Coin() {
         this.name = "";
